@@ -1,0 +1,116 @@
+@media (min-width: 576px) {
+  .overlay-box {
+    width: 90%;
+    max-width: 40rem;
+    min-height: auto;
+    max-height: 75vh;
+  }
+}
+
+@media (min-width: 768px) {
+
+  .background__video--desktop {
+    display: block;
+  }
+
+  .background__video--mobile {
+    display: none;
+  }
+
+
+  /* ======== */
+  .overlay-box {
+    min-width: 85%;
+    max-width: 50rem;
+    min-height: 70vh;
+    max-height: 80vh;
+  }
+
+  .logo {
+    width: 15rem;
+  }
+
+  .description {
+    font-size: 1.5rem;
+    line-height: 3rem;
+  }
+
+  .form {
+    gap: 3rem;
+    margin-top: 3rem;
+  }
+
+  .input {
+height: 3.5rem;
+
+  }
+
+  .button {
+    padding: 2rem 4rem;
+    font-size: 2rem;
+  }
+ 
+  
+  
+}
+
+@media (min-width: 992px) {
+
+  .overlay-box {
+    min-width: 90%;
+    max-width: 60rem;
+    min-height: 80vh;
+    max-height: 85vh;
+  }
+
+    .logo {
+        width: 14rem;
+        margin-top: 2rem;
+      }
+    
+      .description {
+        font-size: 1.5rem;
+        line-height: 3rem;
+        margin-top: 0rem;
+      }
+    
+      .form {
+        gap: 4rem;
+        margin-top: 4rem;
+        margin-bottom: 4rem;
+        
+      }
+    
+      .input {
+    height: 4rem;
+    padding-right: 4rem;
+    font-size: 1.5rem;
+    
+      }
+    
+      .button {
+        padding: 1rem 2rem;
+        font-size: 1.5rem;
+        margin-top: 0rem;
+      }
+
+      .icon {
+        top:8px;
+        right: 7px;
+        width: 2.2rem;
+
+      }
+
+      .icon__eye {
+        left: 9px;
+        right: auto;
+        top: 9px;
+      }
+     
+}
+
+@media (min-width: 1200px) {
+}
+
+@media (min-width: 1400px) {
+}

@@ -1,0 +1,859 @@
+:root {
+  --cream-color: #FEF4EB;
+  --green-color: #E3FAF3;
+  --blue-color: #DBF4F9;
+  --gray-color: #616161;
+  --medium-font: "Iransanse Medium";
+  --bold-font:"Iransanse Bold";
+  --Light-font:  "Iransanse Light";
+  
+  
+}
+
+html {
+  box-sizing: border-box;
+  font-size: 62.5%;
+  /*10px*/
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  width: 100%;
+  padding-right: 2rem;
+  padding-left: 2rem;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+Html {
+  scroll-behavior: smooth;
+  }
+  
+
+/* 
+============
+   Header
+============
+*/
+.header {
+  position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+    background-color: white;
+  }
+  
+  
+  .nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .nav__wrapper--desktop {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 2rem;
+    width: 100%;
+  }
+  
+  .app-logo {
+  }
+  
+  .app-logo__img {
+    display: block;
+    width: 10rem;
+  }
+  
+  .menu__desktop {
+    display: none;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    font-family: 'Yekan Bakh Regular';
+    color:#616161;
+  }
+  
+  .menu__desktop--item {
+  }
+  
+  .menu__desktop--link {
+    color:#616161;
+    font-size: 1.4rem;
+  }
+  
+  .menu__desktop--link:hover {
+    color: black;
+  }
+  
+  .menu__link--active {
+    color: black;
+  }
+  
+  .nav__links {
+  }
+  
+  .nav__login {
+    display: none;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.2rem;
+    border: 1px #616161 solid;
+    color:#616161;
+    padding: 1.2rem;
+    border-radius: 1rem;
+    font-family: 'Yekan Bakh Regular';
+    transition: all 50ms ease-in;
+  }
+  
+  .nav__login:hover {
+    background-color: black;
+    color: white;
+    transition: all 250ms ease-in-out;
+  }
+  
+  .nav__login--icon {
+    width: 2rem;
+  }
+  
+  .nav__login--title {
+  }
+  
+  /* Mobile Menu */
+  
+  .nav-menu {
+    font-family: 'Yekan Bakh Regular';
+    position: fixed;
+    top: 0;
+    right: -50vw;
+    bottom: 0;
+    width: 50vw;
+    background-color: black;
+  
+    padding: 2.5rem;
+    transition: all 250ms ease-in-out;
+    z-index: 100;
+  }
+  
+  .nav-menu--open {
+    right: 0;
+  }
+  
+  .menu-mobile--title {
+    font-family: 'Yekan Bakh SemiBold';
+    font-size: 1.4rem;
+    color: white;
+    margin-bottom: 2.5rem;
+    margin-top: 2rem;
+    line-height: 3rem;
+  }
+  
+  .mobile-menu {
+    font-family: 'Yekan Bakh SemiBold';
+  
+  }
+  
+  .mobile-menu__item {
+    margin-bottom: 1.5rem;
+  }
+  
+  .mobile-menu__link {
+    color: white;
+    font-size: 1.2rem;
+    position: relative;
+    transition: all 250ms ease-in-out;
+  }
+  
+  .mobile-menu__link::before {
+    content: " ";
+    position: absolute;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    width: 0;
+    height: 0.3rem;
+    border-radius: 5rem;
+    background-color: white;
+    transition: all 250ms ease-in-out;
+  }
+  
+  .mobile-menu__link:hover {
+    padding-right: 2.2rem;
+  }
+  
+  .mobile-menu__link:hover::before {
+    width: 1.6rem;
+  }
+  
+  .nav-menu__links {
+    font-size: 1rem;
+    display: flex;
+    align-items: center;
+    width: 14rem;
+    margin-top: 2rem;
+  }
+  
+  .nav-menu__link {
+    color: white;
+    border: 1px white solid;
+    padding: 1rem;
+    width: 50%;
+    text-align: center;
+  }
+  
+  .nav-menu__link:hover {
+    background-color: white;
+    color: black;
+    transition: all 250ms ease-in-out;
+  }
+  
+  .nav-menu__link--right {
+    border-top-right-radius: 0.6rem;
+    border-bottom-right-radius: 0.6rem;
+  }
+  
+  .nav-menu__link--left {
+    border-top-left-radius: 0.6rem;
+    border-bottom-left-radius: 0.6rem;
+  }
+  
+  .nav__btn {
+    width: 5.5rem;
+    height: 5.5rem;
+    border-radius: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    margin-top: 1rem;
+  }
+  
+  .nav__btn-line {
+    display: block;
+    width: 3rem;
+    height: 0.3rem;
+    border-radius: 5rem;
+    background-color: #616161;
+    position: relative;
+    transition: all 150ms ease-in-out;
+  }
+  
+  .nav__btn-line::before,
+  .nav__btn-line::after {
+    content: " ";
+    position: absolute;
+    width: 3rem;
+    height: 0.3rem;
+    border-radius: 5rem;
+    background-color: #616161;
+    transition: all 200ms ease-in-out;
+  }
+  
+  .nav__btn-line::before {
+    top: -0.8rem;
+  }
+  
+  .nav__btn-line::after {
+    top: 0.8rem;
+  }
+  
+  .nav__btn--open .nav__btn-line {
+    background-color: transparent;
+  }
+  
+  .nav__btn--open .nav__btn-line::before {
+    transform: translateY(8px) rotate(45deg);
+  }
+  
+  .nav__btn--open .nav__btn-line::after {
+    transform: translateY(-8px) rotate(-45deg);
+  }
+  
+  
+  
+  
+/* Styling for the title1: */
+h1.title1 {
+    display: inline-block;
+    font-size: 21px;
+    margin-right: 5px;
+    margin-top: 10rem;
+    position: relative;
+    padding-right: 45px;
+    font-size: 1.9rem;
+    font-family: 'Yekan Bakh SemiBold';
+}
+
+/* Adds a horizontal line after the title1  */
+h1.title1::before {
+  content: "";
+  position: absolute;
+  top: 70%;
+  right: 0;
+  width: 23px;
+  height: 1px;
+  background-color: #000;
+  transform: translateY(-50%);
+  margin-right: 5%;
+}
+
+
+ /* Styling for the form: */
+.appointment__form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 80%;
+  max-width: 550px;
+  margin: auto;
+  margin-top: 35px;
+  padding: 20px 15px;
+  border-radius: 10px;
+  gap: 10px;
+  background-color: #1E6E9D;
+  max-width: 733px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+/* Styling for the search box: */
+.search-box {
+  width: 100%;
+  max-width: 472;
+  height: 3rem;
+  padding: 10px 15px 10px 40px;
+  border: 1px solid #000;
+  border-radius: 0.5rem;
+  background-image: url('../../assets/images/search.svg'); 
+  background-position: 5px center;
+  background-size: 2rem 2rem;
+  background-repeat: no-repeat;
+  font-size: 1.3rem;
+}
+
+/* Style the type nurse's selection buttons: */
+.role-selection {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  max-width: 472;
+  min-height: 3rem;
+  cursor: pointer;
+  background-color: white;
+  border: solid #000 1px;
+  border-radius: 0.5rem ;
+  margin-top:0.6rem;
+}
+
+div.role-selection__nurse-child,
+div.role-selection__nurse-elderly{
+  width: 50%;
+  display: inline-flex;
+  align-items: center;
+  padding:5px 8px;
+}
+
+.role-selection__nurse-elderly{
+  border-right: #000 solid 1px;
+}
+
+input.nurse-child__button {
+  background-color: #73E3FD;
+  margin: 5px 10px;
+  border: #DBF4F9 solid 0px;
+  border-radius: 5px;
+  width: 90%;
+}
+
+input.nurse-elderly__button {
+  color: #616161;
+  background-color: white;
+  border: 0px solid white;
+  margin: 5px 10px;
+  text-align: center;
+}
+
+.role-selection__nurse-child input,
+.role-selection__nurse-elderly input {
+  cursor: pointer;
+  font-size: 1.2rem;
+  margin: auto;
+  flex: 1;
+  word-wrap: break-word; 
+  max-width: 100%;
+  font-family: 'Yekan Bakh SemiBold';
+}
+
+
+
+/* Province and city selection drop-down list style */
+.location-selection {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  max-width: 472;
+  gap: 10px;
+  height: 3rem;
+  margin-top:0.6rem;
+}
+
+.province-dropdown, 
+.city-dropdown{
+color: #616161;
+padding-left: 10px;
+width: 50%;
+font-family: 'Yekan Bakh Regular';
+}
+
+.location-selection select {
+  flex: 1;
+  padding-right: 1rem;
+  border: 1px solid #000;
+  border-radius: 0.5rem;
+  background-color: #ffffff;
+  font-size: 1.3rem;
+}
+
+/* Style for home address box: */
+textarea.home-address{
+  height: 70px;
+  max-height: 100px;
+  width: 100%;
+  max-width: 471;
+  display: flex;
+  flex-direction: row;
+  border: 1px solid #000;
+  border-radius: 0.5rem;
+  font-size: 1.3rem;
+  background-color: #ffffff;
+  padding: 12px;
+  resize: vertical;
+  font-family: 'Yekan Bakh Regular';
+}
+.home-address::placeholder{
+  color: #616161;
+}
+
+
+/* Style for the child age dropdown list: */
+.classchild-Age{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 472;
+  height: 3rem;
+  color: #616161;
+  padding-right: 1rem;
+  border: 1px solid #000;
+  border-radius: 0.5rem;
+  background-color: #ffffff;
+  font-size: 1.3rem;
+  font-family: 'Yekan Bakh Regular';
+}
+
+.classchild-Age option{
+  font-size: 1.3rem;
+  font-family: 'Yekan Bakh Regular';
+}
+
+/* Style for the child condition box: */
+.Child-conditions{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 472;
+}
+
+.Child-conditions__text{
+  font-size: 1.2rem;
+  font-family: 'Yekan Bakh Regular';
+  color: #ffffff;
+}
+textarea.Child-conditions__box{
+  height: 70px;
+  max-height: 100px;
+  margin-top: 5px;
+  border: 1px solid #000;
+  border-radius: 0.5rem;
+  background-color: #ffffff;
+  padding: 12px;
+  font-size: 1.2rem;
+  resize: vertical;
+  font-family: 'Yekan Bakh Regular';
+}
+
+
+/* Style for nurse gender radio buttons: */
+.gender-selection {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  gap: 5px;
+  color: #ffffff;
+}
+
+.gender-selection p {
+  font-size: 1.2rem;
+  text-align: center;
+  font-family: 'Yekan Bakh Regular';
+}
+
+.gender-options {
+  display: flex;
+  justify-content: space-around;  
+  width: 100%;
+  max-width: 400px; 
+  font-family: 'Yekan Bakh Regular';
+}
+
+.gender-selection label {
+  font-size: 1.1rem;
+  display: flex;
+  align-items: center;
+  gap: 2px;
+  white-space: nowrap; 
+}
+
+.gender-selection input {
+  accent-color: #000;
+  transform: scale(1);
+  cursor: pointer;
+}
+
+
+/* Style for nurses' titles: */
+h3.nurse__title2{
+  display: inline-block;
+  margin-right: 5px;
+  margin-top: 40px;
+  position: relative;
+  padding-right: 45px;
+  font-size: 1.8rem;
+  font-family: 'Yekan Bakh SemiBold';
+}
+
+h3.nurse__title2::before {
+  content: "";
+  position: absolute;
+  top: 70%;
+  right: 0;
+  width: 23px;
+  height: 1px;
+  background-color: #000;
+  transform: translateY(-50%);
+  margin-right: 15%;
+}
+
+.nurse-list__container {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  gap: 15px;
+  margin: auto;
+  margin-top: 30px;
+}
+  
+
+/* Style for the sort menu:*/
+.sort-menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 4rem;
+  max-height: 5rem;
+  background: #f8f8f8;
+  border-radius: 5px;
+  border: 1px solid #000;
+  background-color: #ffffff;
+  position: relative;
+  padding: 2px 10px;
+  margin-bottom: 8px;
+  font-size: 1.1rem;
+  line-height: 1.3rem;
+  font-family: 'Yekan Bakh Regular';
+}
+
+img.sort-icon{
+  position: absolute;
+  display: none;
+}
+
+/* Style for sort menu buttons: */
+.sort-menu button {
+  border: none;
+  padding: 3px 10px;
+  border-radius: 5px;  
+  cursor: pointer;
+  font-size: 1rem;
+  font-family: 'Yekan Bakh Regular';
+}
+
+button.Default__sort-menu{
+  background-color: #73E3FD;
+  color: #000;
+}
+
+button.popular__sort-menu,
+button.success__sort-menu{
+color: #616161;
+background-color: #ffffff;
+}
+
+/* Style for the nurse'ss section: */
+.nurse-card {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  width: 100%;
+  height: 10rem;
+  background: white;
+  padding: 5px 10px;
+  border-radius: 5px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  cursor: pointer;
+}
+.nurse-card.selected {
+  background-color: #73E3FD;
+}
+
+.nurse-card:hover{
+  background-color: #73E3FD;
+}
+
+
+/* Style for nerse and explain and image, profile:*/
+.nurse-image {
+  display: flex;
+  align-items: center;
+  justify-content: center; 
+  margin: auto;
+  margin-right: 4%;
+}
+
+.nurse-image img {
+  width: 7rem;
+  height: 7rem;
+  border-radius: 1rem;
+  border: 0.5px solid #000;
+  margin-left: 15%;
+}
+
+.nurse-info {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  padding-top: 10px;
+}
+
+.nurse-info h3 {
+  font-size: 1.3em;
+  margin-bottom: 0.7rem;
+  font-family: 'Yekan Bakh SemiBold';
+}
+
+.nurse-info p {
+  margin: 3px 0px;
+  color: #000;
+  font-size: 0.95em;
+  line-height: 1rem;
+  font-family: 'Yekan Bakh Regular';
+}
+
+div.nurse-score{
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+}
+
+div.nurse-score-saggetion{
+  display: inline-flex;
+  position: relative;
+  padding-right: 1rem;
+}
+
+.nurse-score-saggetion img{
+  position: absolute;
+  right: 0px;
+  top: 0.3em;
+ }
+
+ .nurse-score-saggetion p {
+  padding-right: 0.1rem; 
+  font-size: 10px;
+}
+
+.nurse-score img{
+  width: 1rem;
+  height: 1rem;
+}
+
+div.nurse-score-star{
+  margin-right: 3.5rem;
+  margin-top: 0.5rem;
+}
+
+/* 
+===============
+    Footer
+===============
+*/
+
+.footer {
+  margin-top: 8rem;
+}
+.container {
+}
+.footer-head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.app-logo__img {
+  display: block;
+  width: 10rem;
+}
+
+.footer__links {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.footer__link {
+}
+
+.footer__icon {
+  width: 2.8rem;
+}
+
+.footer__icon:hover {
+  transform: scale(1.3);
+  transition: transform 250ms ease;
+}
+
+.footer__icon--tel {
+  width: 2.2rem;
+}
+
+.footer__border {
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+
+.footer__line {
+  display: block;
+  width: 100%;
+  height: 0.01rem;
+  background-color: #616161;
+}
+
+.scroll-to-top {
+  position: absolute;
+  top: -1.5rem;
+  margin-left: 2rem;
+}
+
+.footer__line--icon {
+  display: block;
+  background-color: black;
+  border-radius: 5rem;
+  padding: 0.5rem;
+  width: 3rem;
+}
+
+.footer__line--icon:hover {
+  transform: scale(1.3);
+  transition: transform 250ms ease;
+}
+
+.footer__content {
+  margin-top: 4rem;
+  font-family:'Yekan Bakh Regular';
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.footer__content--title {
+  font-family: 'Yekan Bakh SemiBold';
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+.footer__content--caption {
+  font-size: 1.2rem;
+  line-height: 2rem;
+  text-align: justify;
+  margin-bottom: 3rem;
+}
+
+.footer__about-access-services {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.footer__access-services {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: row;
+  gap: 2rem;
+  width: 100%;
+}
+
+.footer__access-services div {
+  width: 50%;
+  display: flex;
+  align-items: start;
+  justify-content: space-between;
+  flex-direction: column;
+  margin-bottom: 3rem;
+}
+
+.footer__content--item {
+  color: black;
+  margin-bottom: 1.2rem;
+  font-size: 1.2rem;
+}
+
+.footer__content--item:hover {
+  transform: scale(1.1);
+  transition: transform 250ms ease;
+}
+
+.footer__namad-image--desktop {
+  display: none;
+}
+
+.footer__namad-sentence {
+  width: 100%;
+  font-size: 1.2rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: row;
+}
+
+.footer__namad-image {
+  display: block;
+  width: 30%;
+}
+.footer__bottom {
+}
+.footer__bottom--sentence {
+  margin-bottom: 2rem;
+}

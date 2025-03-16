@@ -1,0 +1,162 @@
+:root {
+  --cream-color: #FEF4EB;
+  --green-color: #E3FAF3;
+  --blue-color: #DBF4F9;
+  --gray-color: #616161;
+  --Regular-font: "Regular";
+  --SemiBold-font: "SemiBold";
+  --bold-font: "Bold";
+  --ExtraBold-font: "ExtraBold";
+  
+  
+}
+
+html {
+  box-sizing: border-box;
+  font-size: 62.5%;
+  /*10px*/
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+
+
+.background {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.background__video {
+  position: absolute;
+  top: 50%;
+  left:50%;
+  transform: translate(-50%,-50%);
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  object-fit: cover;
+  z-index: -2;
+}
+
+.background::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.6);
+  pointer-events: none;
+  z-index: -1;
+
+}
+
+.background__video--desktop {
+  display: none;
+}
+
+.overlay-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  width: 90%;
+  min-height: auto;
+  max-width: 35rem;
+  max-height: 80vh;
+  padding: 2rem;
+  background: rgba(225, 225, 225, 0.9);
+  border-radius: 0.8rem;
+  text-align: center;
+}
+
+/* .overlay-box div{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+} */
+
+.logo {
+  width: 10rem;
+}
+
+.description {
+  font-family: var(--Regular-font);
+  font-size: 1.2rem;
+  margin-bottom: 1;
+  line-height: 2.5rem;
+}
+
+.form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 2rem;
+  margin-top: 2rem;
+}
+
+.form div {
+  width: 70%;
+  height: 3rem;
+  position: relative;
+}
+
+.icon {
+  position: absolute;
+  right: 9px;
+  top: 5px;
+  width: 1.4rem;
+}
+
+.icon__eye {
+  left: 9px;
+  right: auto;
+  top: 9px;
+}
+
+.input {
+width: 100%;
+height: 2.5rem;
+padding-right: 3.2rem;
+border-radius: 0.8rem;
+border: none;
+font-family: var(--Regular-font);
+outline: none;
+}
+
+/* .input__pass {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+} */
+
+.link {
+  color: rgb(24, 78, 33);
+}
+
+.button {
+  border: none;
+  background-color: var(--blue-color);
+  padding: 1.5rem 3rem;
+  font-family: var(--Regular-font);
+  font-size: 1.3rem;
+  border-radius: 0.8rem;
+}
+

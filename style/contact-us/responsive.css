@@ -1,0 +1,253 @@
+@media (min-width: 480px) {
+
+}
+
+@media (min-width: 576px){
+
+  .app-logo__img {
+    width: 12rem;
+  }
+
+  .footer__icon {
+    width: 3.5rem;
+    margin-right: 1.5rem;
+  }
+
+  .footer__icon--tel{
+    width: 3.3rem;
+  }
+
+  .footer__line--icon {
+    width: 4rem;
+  }
+
+  .scroll-to-top {
+    top: -1.7rem;
+
+  }
+
+  .footer__access-services div {
+    margin-right: 5rem;
+  }
+
+  .footer__namad-image {
+    width: 20%;
+    margin-right: 4rem;
+  }
+
+  .footer__bottom--sentence {
+    margin-left: 4rem;
+  }
+  /* footer: */
+
+  .app-logo__img {
+    width: 12rem;
+  }
+
+  .footer__icon {
+    width: 3.5rem;
+    margin-right: 1.5rem;
+  }
+
+  .footer__icon--tel{
+    width: 3.3rem;
+  }
+
+  .footer__line--icon {
+    width: 4rem;
+  }
+
+  .scroll-to-top {
+    top: -1.7rem;
+
+  }
+
+  .footer__access-services div {
+    margin-right: 5rem;
+  }
+
+  .footer__namad-image {
+    width: 20%;
+    margin-right: 4rem;
+  }
+
+  .footer__bottom--sentence {
+    margin-left: 4rem;
+  }
+
+}
+
+
+@media (min-width: 600px) {
+  .input,
+  .submit__btn {
+    height: 4rem;
+  }
+
+  
+}
+
+@media (min-width: 768px) {
+
+  .container {
+    padding-right: 5rem;
+    padding-left: 5rem;
+  }
+/* ========= */
+
+  .nav__btn, .nav-menu {
+    display: none;
+}
+
+.menu__desktop {
+    display: flex;
+
+}
+.nav__login {
+  display: flex;
+}
+
+/* ======== */
+
+.wrapper {
+  display: flex;
+  justify-content: space-around;
+}
+
+.contacts {
+  flex-direction: column;
+  margin-top: 0;
+  gap: 2rem;
+  justify-content: center;
+
+}
+
+.contact{
+}
+
+ /* Footer: */
+
+ .footer {
+  margin-top: 120px;
+}
+
+.footer__about-access-services {
+  flex-direction: row;
+  align-items: start;
+  justify-content: flex-start;
+  gap: 0;
+}
+
+.footer__content--about {
+  width: 40%;
+}
+
+.footer__access-services div {
+  width: 20%;
+}
+
+
+
+ 
+
+}
+
+@media (max-width: 860px) {
+  .wrapper__img {
+    display: none;
+  }
+}
+
+@media (min-width: 992px) {
+  /* header */
+
+  .app-logo__img{
+    width: 15rem;
+  }
+
+  .menu__desktop--link {
+    font-size: 1.7rem;
+  }
+
+  .nav__login {
+    font-size: 1.5rem;
+    padding: 1.5rem;
+  }
+}
+
+@media (min-width: 1024px) {
+
+}
+
+@media (min-width: 1200px) {
+
+  .footer__about-access-services {
+    display: flex;
+    align-items: start;
+    flex-direction: row;
+  }
+
+  /* Footer: */
+
+  .footer {
+    margin-top: 150px;
+  }
+
+  .footer__about-access-services {
+    display: flex;
+    align-items: start;
+    flex-direction: row;
+  }
+
+  .footer__namad-image--desktop {
+    display: block;
+  }
+
+  .footer__namad-image {
+    display: none;
+  }
+
+  .footer__bottom {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 3rem;
+
+  }
+
+  
+
+  .footer__content--about {
+    width: 40%;
+  }
+
+  .footer__content--section {
+    width: 25%;
+  }
+
+  .footer__namad-image--desktop {
+    width: 15%;
+  }
+
+  .app-logo__img {
+    width: 15rem;
+  }
+
+  .footer__line--icon {
+    width: 5rem;
+  }
+
+  .scroll-to-top {
+    top: -2.2rem;
+
+  }
+}
+
+@media (min-width: 1280px) {
+
+}
+
+@media (min-width: 1920px) {
+
+}

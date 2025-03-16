@@ -1,0 +1,890 @@
+@media (min-width: 576px) {
+
+    /* Change distances */
+  h1.title1{
+    font-size: 2.4rem;
+    margin-top: 12rem;
+  }
+  
+  .appointment__form{
+    gap: 1.4rem;
+  }
+
+  .role-selection{
+    margin-top:0.8rem;
+  }
+
+  .location-selection{
+    margin-top:0.8rem;
+  }
+
+  .gender-selection p{
+    margin-top:2rem;
+    margin-bottom: 2rem;
+  } 
+
+.search-box,
+.role-selection,
+.service-selection,
+.location-selection,
+.category-dropdown,
+.insurance-dropdown {
+
+    height: 3.8rem;
+  }
+
+  .doctor-card{
+    height: 15rem;
+  }
+
+  /* resize */
+  .search-box,
+  .location-selection select,
+  textarea.home-address,
+  .category-dropdown,
+  .insurance-dropdown,
+  .gender-selection p{
+    font-size: 1.6rem;
+  }
+  
+  .gender-selection label,
+  .sort-menu{
+      font-size: 1.5rem;
+  }
+  
+.role-selection__doctor input,
+.role-selection__nurse input,
+.service-selection input{
+    font-size: 1.4rem;
+  }
+  
+  .sort-menu button{
+    font-size: 1.3rem;
+  }
+
+  h3.doctor__title2{
+    font-size: 2.2rem;
+
+  }
+  
+  /* Details: */
+  h1.title1,
+  h3.doctor__title2{
+    padding-right: 50px;
+  }
+  
+  h1.title1::before,
+  h3.doctor__title2::before{
+    width: 25px;
+  }
+
+  .search-box{
+    background-size: 2.3rem 2.3rem;
+    padding-left: 4.5rem;
+  }
+
+.booking__icon,
+.phone-consultation__icon,
+.text-consultation__icon{
+  width: 1.6rem;
+  height: 1.6rem;
+  margin-left: 0.5rem;
+}
+
+textarea.home-address{
+  height: 90px;
+  max-height: 110px;
+}
+
+
+
+img.sort-icon{
+  display: inline;
+  right:  1rem;
+  top: 1.2rem; width: 1.5rem;
+  height: 1.52rem;
+}
+div.sort-menu{
+  padding-right: 2.5rem;
+}
+.doctor-image img{
+  width: 11rem;
+  height: 11rem;
+}
+
+.search-box,
+.role-selection,
+input.doctor__button,
+.service-selection,
+input.booking__button,
+.location-selection select,
+textarea.home-address,
+.category-dropdown,
+.insurance-dropdown,
+.doctor__button,
+.booking__button,
+div.sort-menu,
+button.Default__sort-menu,
+.doctor-card{
+border-radius: 10px;
+}
+
+/* Department of doctors: */
+.doctor-info h3 {
+  margin: 5px 0px 10px 0px;
+  margin-bottom: 1.1rem;
+  font-size: 1.7em;
+}
+
+.doctor-info{
+  margin-right: 0.5em;
+}
+
+.doctor-info > p:first-of-type{
+  margin-top: 1em;
+}
+
+.doctor-info p {
+  margin: 3px 0px;
+  color: #000;
+  font-size: 1.2em;
+  line-height: 1.3rem;
+}
+
+
+div.doctor-score{
+  flex-direction: row;
+  margin-top: 2rem;
+  gap: 3rem;
+  align-items: center;
+  align-content: end;
+}
+
+.doctor-score-star{
+  order: 0;
+  margin-right: 0px;
+}
+.doctor-score-saggetion{
+  padding: 0px;
+  order: 1;
+}
+
+.doctor-score img{
+  width: 1.25rem;
+  height: 1.25rem;
+}
+
+.doctor-score-saggetion p {
+  padding-right: 0.5rem; 
+  font-size: 10px;
+}
+
+.doctor-score-saggetion,
+.doctor-score-star {
+  margin-top: 1.6em; 
+}
+
+.doctor-score-saggetion{
+margin-bottom: 1rem;
+}
+/* footer: */
+
+.footer {
+  margin-top: 10rem;
+}
+
+.app-logo__img {
+  width: 12rem;
+}
+
+.footer__icon {
+  width: 3.5rem;
+  margin-right: 1.5rem;
+}
+
+.footer__icon--tel{
+  width: 3.3rem;
+}
+
+.footer__line--icon {
+  width: 4rem;
+}
+
+.scroll-to-top {
+  top: -1.7rem;
+
+}
+
+.footer__access-services div {
+  margin-right: 5rem;
+}
+
+.footer__namad-image {
+  width: 20%;
+  margin-right: 4rem;
+}
+
+.footer__bottom--sentence {
+  margin-left: 4rem;
+}
+ 
+}
+
+@media (min-width: 768px) {
+
+  /* header */
+
+  .app-logo__img{
+    width: 15rem;
+  }
+
+  .menu__desktop--link {
+    font-size: 1.7rem;
+  }
+
+  .nav__login {
+    font-size: 1.5rem;
+    padding: 1.5rem;
+  }
+
+ 
+  .nav__btn, .nav-menu {
+    display: none;
+}
+
+.menu__desktop {
+    display: flex;
+
+}
+.nav__login {
+  display: flex;
+}
+
+
+/* Change distances */
+h1.title1{
+  font-size: 2.9rem;
+  margin-top: 14rem;
+}
+
+.appointment__form{
+  gap: 2.5rem;
+}
+
+.role-selection{
+  margin-top:2.6rem;
+}
+
+.location-selection{
+  margin-top:2.6rem;
+}
+
+.gender-selection p{
+  margin-top:5rem;
+  margin-bottom: 4rem;
+} 
+
+.search-box,
+.role-selection,
+.service-selection,
+.location-selection,
+.category-dropdown,
+.insurance-dropdown {
+
+  height: 4.6rem;
+}
+
+
+.doctor-card{
+  height: 18rem;
+}
+
+/* resize */
+.search-box,
+.location-selection select,
+textarea.home-address,
+.category-dropdown,
+.insurance-dropdown,
+.gender-selection p{
+  font-size: 2rem;
+}
+  
+  .gender-selection label,
+  .sort-menu{
+      font-size: 1.8rem;
+  }
+  
+.role-selection__doctor input,
+.role-selection__nurse input,
+.service-selection input {
+    font-size: 1.6rem;
+  }
+  
+  .sort-menu button{
+    font-size: 1.5rem;
+  }
+
+
+
+h3.doctor__title2{
+  font-size: 2.6rem;
+
+}
+
+/* Details: */
+h1.title1,
+h3.doctor__title2{
+  padding-right: 55px;
+}
+
+h1.title1::before,
+h3.doctor__title2::before{
+  width: 28px;
+}
+
+.search-box{
+  background-size: 2.6rem 2.6rem;
+  padding-left: 5rem;
+}
+
+.booking__icon,
+.phone-consultation__icon,
+.text-consultation__icon{
+  width: 1.8rem;
+  height: 1.8rem;
+  margin-left: 1rem;
+}
+
+textarea.home-address{
+  height: 100px;
+  max-height: 140px;
+}
+
+.gender-selection p{
+  margin: 1rem 0px 1.5rem 0px;
+} 
+
+
+img.sort-icon{
+  display: inline;
+  right:  2.5rem;
+  top: 1.2rem; 
+  width: 1.638rem;
+  height: 1.52rem;
+}
+div.sort-menu{
+  padding-right: 5rem;
+}
+
+/* Department of doctors: */
+.doctor-image img{
+  width: 12rem;
+  height: 12rem;
+}
+
+.doctor-info h3 {
+  margin: 15px 0px 10px 0px;
+  margin-bottom: 1.1rem;
+  font-size: 1.8rem;
+}
+
+.doctor-info{
+  margin-right: 0.8em;
+}
+
+.doctor-info > p:first-of-type{
+  margin-top: 1.5em;
+}
+
+.doctor-info p {
+  margin: 3px 0px;
+  color: #000;
+  font-size: 1.4em;
+  line-height: 1.3rem;
+}
+
+
+div.doctor-score{
+  flex-direction: row;
+  margin-top: 2.5rem;
+  gap: 4rem;
+  align-items: center;
+  align-content: end;
+}
+
+.doctor-score-star{
+  order: 0;
+  margin-right: 0px;
+}
+.doctor-score-saggetion{
+  padding: 0px;
+  order: 1;
+}
+
+.doctor-score img{
+  width: 1.5rem;
+  height: 1.5rem;
+}
+
+.doctor-score-saggetion p {
+  padding-right: 1rem;
+  font-size: 10px;
+}
+
+
+/* footr: */
+.footer {
+  margin-top: 12rem;
+}
+
+.container {
+  padding-right: 5rem;
+  padding-left: 5rem;
+}
+
+.footer__about-access-services {
+  flex-direction: row;
+  align-items: start;
+  justify-content: flex-start;
+  gap: 0;
+}
+
+.footer__content--about {
+  width: 40%;
+}
+
+.footer__access-services div {
+  width: 20%;
+}
+}
+
+@media (min-width: 992px) {
+
+h1.title1{
+  padding-right: 58px;
+  margin-top: 17rem;
+}
+
+h1.title1::before{
+  width: 32px;
+}
+
+/* Change page layout orientation */
+  section.appointment-form{
+    display: flex;
+    flex-direction: row;
+    align-content: flex-start;
+    gap: 4%;
+    margin: 50px 4% 0px 5%;
+  }
+
+  form.appointment__form{
+    width: 54rem;
+    order: 0;
+    margin-top: 0px;
+  }
+
+h3.doctor__title2,
+h3.doctor__title2::before{
+  display: none;
+}
+
+/* Change distances */
+.appointment__form{
+  gap: 2rem;
+}
+
+.role-selection{
+  margin-top:1.2rem;
+}
+
+.location-selection{
+  margin-top:1.2rem;
+}
+
+.gender-selection p{
+  margin-top:2rem;
+  margin-bottom: 2rem;
+} 
+
+  /* resize */
+  .search-box,
+  .location-selection select,
+  textarea.home-address,
+  .category-dropdown,
+  .insurance-dropdown,
+  .gender-selection p{
+    font-size: 1.6rem;
+  }
+  
+  .gender-selection label,
+  .sort-menu{
+      font-size: 1.5rem;
+  }
+  
+.role-selection__doctor input,
+.role-selection__nurse input,
+input.booking__button{
+    font-size: 1.4rem;
+  }
+
+  input.phone-consultation__button,
+  input.text-consultation__button {
+  font-size: 1.35rem;
+  }
+  
+  .sort-menu button{
+    font-size: 1.3rem;
+  }
+
+
+  /* Details: */
+div.doctor-list__container{
+    order: 1;
+    margin-top: 0px;
+  }
+
+  .sort-menu{
+    margin-top: 0px;
+  }
+
+
+  img.sort-icon{
+    display: inline;
+    right:  1.1rem;
+    top: 1.2rem; 
+    width: 1.638rem;
+    height: 1.52rem;
+  }
+
+  div.sort-menu{
+    padding-right: 3rem;
+  }
+
+  /* Department of doctor's: */
+  .doctor-card:hover{
+    transform: scale(1.04);
+  } 
+  .doctor-score img{
+    width: 1.4rem;
+    height: 1.4rem;
+  }
+  
+
+  div.doctor-score{
+    gap: 1.2rem;
+  }
+
+  .doctor-score-saggetion p {
+    padding-right: 0.6rem; 
+    font-size: 11px;
+  }
+
+  
+  .footer {
+    margin-top: 22rem;
+  }
+}
+
+@media (min-width: 1041px) {
+
+  div.doctor-score{
+    gap: 4rem;
+  }
+
+  .doctor-score-saggetion p {
+    padding-right: 0.8rem; 
+  }
+  
+}
+
+@media (min-width: 1200px) {
+
+  /* Change distances */
+  h1.title1{
+    font-size: 3.6rem;
+    margin-top: 17rem;
+  }
+  
+  .appointment-form{
+    margin: 0px;
+    gap: 61px;
+    justify-content: space-between;
+  }
+
+  .appointment__form{
+    gap: 2rem;
+  }
+  
+  .role-selection{
+    margin-top:2.05rem;
+  } 
+
+  .location-selection{
+    margin-top:2.05rem;
+  }
+
+  .appointment__form{
+   margin-right: 20px;
+  }
+
+  .doctor-list__container{
+    margin-left: 30px;
+  }
+
+  .gender-selection p{
+    margin-top:2.5rem;
+    margin-bottom: 3.5rem;
+  }  
+  
+  .doctor-card{
+    height: 21.4rem;
+  }
+
+  /* resize: */
+  .search-box,
+  .location-selection select,
+  textarea.home-address,
+  .category-dropdown,
+  .insurance-dropdown,
+  .gender-selection p{
+    font-size: 2rem;
+  }
+    
+    .gender-selection label,
+    .sort-menu{
+        font-size: 1.8rem;
+    }
+    
+  /* .role-selection__doctor input,
+  .role-selection__nurse input,
+  .service-selection input {
+      font-size: 1.6rem;
+    } */
+    
+  .role-selection__doctor input,
+  .role-selection__nurse input,
+  input.booking__button{
+    font-size: 1.6rem;
+  }
+
+  input.phone-consultation__button,
+  input.text-consultation__button {
+  font-size: 1.38rem;
+  }
+    .sort-menu button{
+      font-size: 1.5rem;
+    }
+
+  /* Details: */
+  h1.title1{
+    padding-right: 80px;
+  }
+    
+  h1.title1::before{
+    content: "";
+    height: 1.2px;
+     width: 47px;
+  }
+  
+    .nurse__button{
+     height: 3rem; 
+     width: 2rem; 
+  }
+  
+  .booking__icon,
+  .phone-consultation__icon,
+  .text-consultation__icon{
+    width: 1.8rem;
+    height: 1.8rem;
+    margin-left: 1rem;
+  }
+  
+  
+  div.sort-menu{
+    padding-right: 5rem;
+    height: 46px;
+  }
+  
+  img.sort-icon{
+    display: inline;
+    right:  2.5rem;
+    top: 1.2rem; 
+    width: 1.6rem;
+    height: 1.638rem;
+  }
+  
+  
+  /* Department of doctor's: */
+  .doctor-image img{
+    width: 13.4rem;
+    height: 14.6rem;
+  }
+  
+  .doctor-list__container{
+    gap: 0px;
+  }
+  
+  .sort-menu{
+    margin-bottom: 60px;
+  }
+  
+  
+  .doctor-card{
+    margin-bottom: 30px;
+    height: 216px;
+  }
+  
+  .doctor-info h3 {
+    margin: 18px 0px 10px 0px;
+    margin-bottom: 1.1rem;
+    font-size: 2em;
+  }
+  
+  .doctor-info{
+    margin-right: 3rem;
+  }
+  
+  .doctor-info > p:first-of-type{
+    margin-top: 2.5rem;
+  }
+  
+  .doctor-info p {
+    margin: 0px;
+    color: #000;
+    font-size: 1.6em;
+  }
+  
+  
+  
+  div.doctor-score{
+    flex-direction: row;
+    margin-top: 4.6rem;
+    gap: 3rem;
+    align-items: center;
+    align-content: end;
+  }
+  
+  
+  .doctor-score-star{
+    order: 0;
+    margin-right: 0px;
+    gap: 7.5px;
+  }
+  
+  .doctor-score-saggetion{
+    padding: 0px;
+    order: 1;
+    margin-bottom: 12px;
+  }
+  
+  
+  
+  .doctor-score-star img{
+    width: 17.5px;
+    height: 16.87px;
+  }
+  
+  .doctor-score-saggetion img{
+    width: 1.7rem;
+    height: 1.7rem;
+    
+  }
+  
+  
+  .doctor-score-saggetion p {
+    padding-right: 1rem; 
+    font-size: 12px;
+    padding-top: 4px;
+  }
+  .doctor-score-saggetion__img{
+    margin-top: 0px;
+    
+  }
+  
+  
+  .doctor-score-saggetion,
+  .doctor-score-star {
+    margin-top: 1.6rem; 
+  }
+  
+  
+  
+  /* footer: */
+  
+  .footer {
+    margin-top: 30.5rem;
+  }
+  
+  .footer__about-access-services {
+    display: flex;
+    align-items: start;
+    flex-direction: row;
+  }
+  
+  .footer__namad-image--desktop {
+    display: block;
+  }
+  
+  .footer__namad-image {
+    display: none;
+  }
+  
+  .footer__bottom {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 3rem;
+  
+  }
+  
+  
+  
+  .footer__content--about {
+    width: 40%;
+  }
+  
+  .footer__content--section {
+    width: 25%;
+  }
+  
+  .footer__namad-image--desktop {
+    width: 15%;
+  }
+  
+  .app-logo__img {
+    width: 15rem;
+  }
+  
+  .footer__line--icon {
+    width: 5rem;
+  }
+  
+  .scroll-to-top {
+    top: -2.2rem;
+  
+  }
+  
+  
+  }
+  
+  @media (min-width: 1400px) {
+  
+    .appointment__form{
+      gap: 2.5rem;
+    }
+    
+    .role-selection{
+      margin-top:2.6rem;
+    } 
+  
+    .location-selection{
+      margin-top:2.6rem;
+    }
+  
+    .gender-selection p{
+      margin-top:3rem;
+      margin-bottom: 4rem;
+    }  
+  }

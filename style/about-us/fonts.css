@@ -1,0 +1,64 @@
+
+   @font-face {
+	font-family: Yekan Bakh FaNum;
+	font-style: normal;
+	font-weight: 100;
+	src: url('../../assets/fonts/YekanBakhFaNum-Thin.woff2') format('woff2');		
+	font-display: swap;
+}
+
+@font-face {
+	font-family: Yekan Bakh FaNum;
+	font-style: normal;
+	font-weight: 300;
+	src: url('../../assets/fonts/YekanBakhFaNum-Light.woff2') format('woff2');	
+	font-display: swap;
+}
+
+@font-face {
+	font-family: Yekan Bakh Regular;
+	font-style: normal;
+	font-weight: normal;
+	src: url('../../assets/fonts/YekanBakhFaNum-Regular.woff2') format('woff2');		
+	font-display: swap; 
+}
+
+@font-face {
+	font-family: Yekan Bakh SemiBold;
+	font-style: normal;
+	font-weight: 600;
+	src: url('../../assets/fonts/YekanBakhFaNum-SemiBold.woff2') format('woff2');	
+	font-display: swap;	 
+}
+
+@font-face {
+	font-family: Yekan Bakh FaNum;
+	font-style: normal;
+	font-weight: bold;
+	src: url('../../assets/fonts/YekanBakhFaNum-Bold.woff2') format('woff2'); 
+	font-display: swap;
+}
+
+@font-face {
+	font-family: Yekan Bakh FaNum;
+	font-style: normal;
+	font-weight: 800;
+	src: url('../../assets/fonts/YekanBakhFaNum-ExtraBold.woff2') format('woff2');		
+	font-display: swap; 
+}
+
+@font-face {
+	font-family: Yekan Bakh FaNum;
+	font-style: normal;
+	font-weight: 900;
+	src: url('../../assets/fonts/YekanBakhFaNum-Black.woff2') format('woff2');	
+	font-display: swap;	 
+}
+
+@font-face {
+	font-family: Yekan Bakh FaNum;
+	font-style: normal;
+	font-weight: 950;
+	src: url('../../assets/fonts/YekanBakhFaNum-ExtraBlack.woff2') format('woff2');	
+	font-display: swap;	 
+}
